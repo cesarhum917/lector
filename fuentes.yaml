@@ -48,32 +48,53 @@ secciones:
   ranking: true
   peso: 3
   fuentes:
-  - nombre: Google News — Portada México
-    feed: https://news.google.com/rss?hl=es-419&gl=MX&ceid=MX:es-419
-  - nombre: La Jornada
-    feed: https://www.jornada.com.mx/rss/edicion.xml
-    max: 15
+  - nombre: El País México
+    url: https://elpais.com/mexico/
   - nombre: Animal Político
     feed: https://news.google.com/rss/search?q=site:animalpolitico.com&hl=es-419&gl=MX&ceid=MX:es-419
-  - nombre: Sin Embargo
-    feed: https://news.google.com/rss/search?q=site:sinembargo.mx&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: El Universal
+    url: https://www.eluniversal.com.mx
+  - nombre: El Financiero
+    url: https://www.elfinanciero.com.mx
+  - nombre: Aristegui Noticias
+    url: https://aristeguinoticias.com
+  - nombre: Google News — Portada México
+    feed: https://news.google.com/rss?hl=es-419&gl=MX&ceid=MX:es-419
   max_por_fuente: 4
   min_relevancia: 4
+- id: internacional
+  nombre: Internacional
+  resumir: true
+  ranking: true
+  peso: 3
+  max_por_fuente: 5
+  min_relevancia: 4
+  fuentes:
+  - nombre: Drop Site News
+    url: https://www.dropsitenews.com
+  - nombre: BBC Mundo
+    url: https://www.bbc.com/mundo
+  - nombre: DW Español
+    url: https://www.dw.com/es/actualidad/s-30684
+  - nombre: BBC World
+    url: https://www.bbc.com/news/world
 - id: local
   nombre: Toluca / Metepec / EdoMex
   resumir: true
   ranking: true
   peso: 4
   fuentes:
+  - nombre: AD Noticias (Toluca)
+    url: https://adnoticias.mx
+  - nombre: DigitalMEX
+    url: https://www.digitalmex.mx
+  - nombre: El Sol de Toluca
+    feed: https://oem.com.mx/elsoldetoluca/rss
+    max: 15
   - nombre: Google News — Toluca / Metepec
     feed: https://news.google.com/rss/search?q=Toluca+OR+Metepec&hl=es-419&gl=MX&ceid=MX:es-419
   - nombre: Google News — Estado de México
     feed: https://news.google.com/rss/search?q=%22Estado+de+M%C3%A9xico%22+gobierno&hl=es-419&gl=MX&ceid=MX:es-419
-  - nombre: El Sol de Toluca
-    feed: https://oem.com.mx/elsoldetoluca/rss
-    max: 15
-  - nombre: Milenio — EdoMex
-    feed: https://news.google.com/rss/search?q=site:milenio.com+%22Estado+de+M%C3%A9xico%22&hl=es-419&gl=MX&ceid=MX:es-419
   max_por_fuente: 5
   min_relevancia: 3
 - id: ia
