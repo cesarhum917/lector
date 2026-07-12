@@ -1,0 +1,205 @@
+secciones:
+- id: miel_alimentos
+  nombre: Miel, alimentos y apícola
+  resumir: true
+  ranking: true
+  peso: 5
+  fuentes:
+  - nombre: 'Google News — Miel: adulteración y autenticidad'
+    feed: https://news.google.com/rss/search?q=miel+(adulteraci%C3%B3n+OR+fraude+OR+autenticidad+OR+pureza)&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: 'Google News — Miel: mercado y producción'
+    feed: https://news.google.com/rss/search?q=miel+(producci%C3%B3n+OR+exportaci%C3%B3n+OR+precio+OR+ap%C3%ADcola)&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Google News — Regulación alimentaria MX
+    feed: https://news.google.com/rss/search?q=(SENASICA+OR+COFEPRIS+OR+%22NOM-051%22+OR+etiquetado)+alimentos&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Food Dive
+    feed: https://www.fooddive.com/feeds/news/
+  - nombre: THE FOOD TECH
+    feed: https://news.google.com/rss/search?q=site:thefoodtech.com&hl=es-419&gl=MX&ceid=MX:es-419
+  max_por_fuente: 8
+  min_relevancia: 3
+- id: negocios
+  nombre: Negocios, Amazon y ecommerce
+  resumir: true
+  ranking: true
+  peso: 5
+  fuentes:
+  - nombre: Value Added Resource
+    feed: https://www.valueaddedresource.net/rss/
+  - nombre: Marketing4eCommerce MX
+    feed: https://marketing4ecommerce.mx/feed/
+  - nombre: Merca2.0
+    feed: https://www.merca20.com/feed/
+    max: 15
+  - nombre: Modern Retail
+    feed: https://www.modernretail.co/feed/
+  - nombre: Forbes México
+    feed: https://news.google.com/rss/search?q=site:forbes.com.mx&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Google News — Amazon México
+    feed: https://news.google.com/rss/search?q=%22Amazon+M%C3%A9xico%22+(FBA+OR+tarifas+OR+vendedores)&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: YouTube — My Amazon Guy
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UClUSEsDS2sdgNJfCcCM_5Uw
+  - nombre: YouTube — Helium 10
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCpBvckYg2UXArcfzRcjpPjw
+  max_por_fuente: 6
+  min_relevancia: 4
+- id: mexico
+  nombre: México — nacional
+  resumir: true
+  ranking: true
+  peso: 3
+  fuentes:
+  - nombre: Google News — Portada México
+    feed: https://news.google.com/rss?hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: La Jornada
+    feed: https://www.jornada.com.mx/rss/edicion.xml
+    max: 15
+  - nombre: Animal Político
+    feed: https://news.google.com/rss/search?q=site:animalpolitico.com&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Sin Embargo
+    feed: https://news.google.com/rss/search?q=site:sinembargo.mx&hl=es-419&gl=MX&ceid=MX:es-419
+  max_por_fuente: 4
+  min_relevancia: 4
+- id: local
+  nombre: Toluca / Metepec / EdoMex
+  resumir: true
+  ranking: true
+  peso: 4
+  fuentes:
+  - nombre: Google News — Toluca / Metepec
+    feed: https://news.google.com/rss/search?q=Toluca+OR+Metepec&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Google News — Estado de México
+    feed: https://news.google.com/rss/search?q=%22Estado+de+M%C3%A9xico%22+gobierno&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: El Sol de Toluca
+    feed: https://oem.com.mx/elsoldetoluca/rss
+    max: 15
+  - nombre: Milenio — EdoMex
+    feed: https://news.google.com/rss/search?q=site:milenio.com+%22Estado+de+M%C3%A9xico%22&hl=es-419&gl=MX&ceid=MX:es-419
+  max_por_fuente: 5
+  min_relevancia: 3
+- id: ia
+  nombre: Inteligencia Artificial
+  resumir: true
+  ranking: true
+  peso: 4
+  fuentes:
+  - nombre: Simon Willison
+    feed: https://simonwillison.net/atom/everything/
+  - nombre: One Useful Thing (Ethan Mollick)
+    feed: https://www.oneusefulthing.org/feed
+  - nombre: Import AI (Jack Clark)
+    feed: https://importai.substack.com/feed
+  - nombre: Interconnects (Nathan Lambert)
+    feed: https://www.interconnects.ai/feed
+  - nombre: Ahead of AI (Sebastian Raschka)
+    feed: https://magazine.sebastianraschka.com/feed
+  - nombre: OpenAI Blog
+    feed: https://openai.com/news/rss.xml
+  - nombre: Google DeepMind Blog
+    feed: https://deepmind.google/discover/blog/feed/
+  - nombre: MIT Technology Review
+    feed: https://www.technologyreview.com/feed/
+  - nombre: Hugging Face Blog
+    feed: https://huggingface.co/blog/feed.xml
+  - nombre: Anthropic
+    feed: https://news.google.com/rss/search?q=Anthropic+Claude&hl=en-US&gl=US&ceid=US:en
+  max_por_fuente: 5
+  min_relevancia: 4
+- id: longform_en
+  nombre: Long-form / investigación (inglés)
+  resumir: false
+  ranking: false
+  peso: 5
+  fuentes:
+  - nombre: The New Yorker
+    feed: https://www.newyorker.com/feed/rss
+  - nombre: WIRED
+    feed: https://www.wired.com/feed/rss
+  - nombre: The Atlantic
+    feed: https://www.theatlantic.com/feed/all/
+  - nombre: Longreads
+    feed: https://longreads.com/feed/
+  - nombre: ProPublica
+    feed: https://www.propublica.org/feeds/propublica/main
+  - nombre: Aeon
+    feed: https://aeon.co/feed.rss
+  - nombre: Quanta Magazine
+    feed: https://www.quantamagazine.org/feed/
+  - nombre: The Guardian — The Long Read
+    feed: https://www.theguardian.com/news/series/the-long-read/rss
+  - nombre: Harper's Magazine
+    feed: https://harpers.org/feed
+- id: longform_es
+  nombre: Long-form / investigación (español)
+  resumir: false
+  ranking: false
+  peso: 5
+  fuentes:
+  - nombre: Nexos
+    feed: https://www.nexos.com.mx/feed/
+  - nombre: Letras Libres
+    feed: https://letraslibres.com/feed/
+  - nombre: Quinto Elemento Lab
+    feed: https://quintoelab.org/feed/
+  - nombre: El Malpensante
+    feed: https://elmalpensante.com/rss.xml
+  - nombre: Revista Anfibia
+    feed: https://www.revistaanfibia.com/feed/
+  - nombre: Jot Down
+    feed: https://www.jotdown.es/feed/
+  - nombre: Gatopardo
+    feed: https://news.google.com/rss/search?q=site:gatopardo.com&hl=es-419&gl=MX&ceid=MX:es-419
+  - nombre: Revista de la Universidad de México
+    feed: https://news.google.com/rss/search?q=site:revistadelauniversidad.mx&hl=es-419&gl=MX&ceid=MX:es-419
+- id: cine
+  nombre: Cine (crítica seria, no cartelera)
+  resumir: false
+  ranking: false
+  peso: 4
+  fuentes:
+  - nombre: MUBI Notebook
+    feed: https://mubi.com/notebook/posts.rss
+  - nombre: Reverse Shot
+    feed: https://reverseshot.org/archive/entry/rss
+  - nombre: Senses of Cinema
+    feed: https://www.sensesofcinema.com/feed/
+  - nombre: Film Comment
+    feed: https://www.filmcomment.com/feed/
+  - nombre: Sight and Sound (BFI)
+    feed: https://www.bfi.org.uk/rss-feed
+  - nombre: Bright Wall/Dark Room
+    feed: https://www.brightwalldarkroom.com/feed/
+  - nombre: Little White Lies
+    feed: https://lwlies.com/feed.rss
+  - nombre: Cinema Scope
+    feed: https://cinema-scope.com/feed/
+- id: libros
+  nombre: Libros y literatura
+  resumir: false
+  ranking: false
+  peso: 4
+  fuentes:
+  - nombre: Zenda Libros
+    feed: https://www.zendalibros.com/feed/
+  - nombre: El Cultural
+    feed: https://www.elespanol.com/rss/el-cultural/
+    max: 12
+  - nombre: Revista Purgante
+    feed: https://revistapurgante.com/feed/
+  - nombre: Literary Hub
+    feed: https://lithub.com/feed/
+  - nombre: London Review of Books
+    feed: https://www.lrb.co.uk/feeds/rss
+- id: podcasts
+  nombre: Podcasts
+  resumir: false
+  ranking: false
+  peso: 3
+  fuentes:
+  - nombre: Radio Ambulante
+    feed: https://radioambulante.org/feed
+  - nombre: El Hilo
+    feed: https://elhilo.audio/feed/podcast
+  - nombre: Las Raras
+    feed: https://lasraraspodcast.com/feed/
+  - nombre: Dwarkesh Podcast
+    feed: https://www.dwarkesh.com/feed

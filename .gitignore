@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+fuentes.yaml.bak
+.DS_Store
+.env
